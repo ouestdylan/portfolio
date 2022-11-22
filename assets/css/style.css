@@ -56,6 +56,9 @@ body {
   width: 100%;
   height: 100vh;
 }
+
+
+
 @media screen and (max-width: 480px) {
   body {
     padding: 0.8em;
@@ -530,7 +533,6 @@ body.light-mode .video-bg:before {
   border-radius: 14px;
   border: 1px solid var(--theme-bg-color);
   padding: 20px;
-  cursor: pointer;
   transition: 0.3s ease;
   justify-content: space-between;
   
@@ -656,7 +658,7 @@ body.light-mode .video-bg:before {
 .content-section ul {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 400px;
   height: 100%;
   justify-content: space-around;
   background-color: var(--content-bg);
@@ -664,7 +666,6 @@ body.light-mode .video-bg:before {
   margin: 0;
   border-radius: 14px;
   border: 1px solid var(--theme-bg-color);
-  cursor: pointer;
 }
 .content-section ul li {
   list-style: none;
@@ -936,7 +937,6 @@ body.light-mode .video-bg:before {
   border-radius: 14px;
   border: 1px solid var(--theme-bg-color);
   padding: 20px;
-  cursor: pointer;
   transition: 0.3s ease;
 }
 .app-card:hover {
