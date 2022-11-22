@@ -538,11 +538,15 @@ body.light-mode .video-bg:before {
   
   padding: 20px 40px;
 }
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 400px) {
+
   .content-wrapp-header {
     padding: 20px;
   }
+
+ 
 }
+
 
 
 
@@ -981,8 +985,11 @@ body.light-mode .video-bg:before {
 }
 @media screen and (max-width: 565px) {
   .app-card {
-    width: calc(100% - 20px);
+    width: calc(100% - 110px);
     margin-top: 20px;
+  }
+  .content-section ul {
+    width: 327px;
   }
   .app-card + .app-card {
     margin-left: 0;
