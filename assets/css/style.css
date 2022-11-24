@@ -59,6 +59,7 @@ body {
 
 
 
+
 @media screen and (max-width: 480px) {
   body {
     padding: 0.8em;
@@ -739,6 +740,7 @@ body.light-mode .video-bg:before {
   font-size: 15px;
   margin-top: 0;
   padding: 6px 24px;
+  text-decoration: none;
 }
 @media screen and (max-width: 390px) {
   .status-button {
@@ -929,8 +931,19 @@ body.light-mode .video-bg:before {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  width: calc(100% + 20px);
+  /* width: calc(100% + 20px); */
+  
 }
+
+.image-project {
+  filter: grayscale(100%);
+  transition: 1.6s;
+}
+
+.image-project:hover {
+  filter: grayscale(10%);
+}
+
 
 .app-card {
   display: flex;
