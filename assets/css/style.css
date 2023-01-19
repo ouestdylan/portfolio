@@ -305,6 +305,11 @@ body.light-mode .video-bg:before {
   border-radius: 10px;
 }
 
+#mail-button {
+  font-size: 17px;
+  margin-left: 80%;
+}
+
 .search-bar {
   height: 40px;
   display: flex;
